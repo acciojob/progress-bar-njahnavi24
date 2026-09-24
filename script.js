@@ -10,7 +10,7 @@ next.addEventListener("click",()=>{
 	circles[i].classList.add('active')
 	prev.disabled = false
 
-	if(i === 4) next.disabled = true
+	if(i === circles.length - 1) next.disabled = true
 })
 
 prev.addEventListener("click",()=>{
