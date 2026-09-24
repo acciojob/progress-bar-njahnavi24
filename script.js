@@ -1,23 +1,23 @@
 //your JS code here. If required.
-let i = 1
+let i = 0
 let circles = document.querySelectorAll('.circle')
 let prev = document.getElementById('prev')
 let next = document.getElementById('next')
 
 next.addEventListener("click",()=>{
-	circles[i-1].classList.remove('active')
+	circles[i].classList.remove('active')
 	i++
-	circles[i-1].classList.add('active')
+	circles[i].classList.add('active')
 	prev.disabled = false
 
-	if(i === 5) next.disabled = true
+	if(i === 4) next.disabled = true
 })
 
 prev.addEventListener("click",()=>{
-	circles[i-1].classList.remove('active')
+	circles[i].classList.remove('active')
 	i--
-	circles[i-1].classList.add('active')
+	circles[i].classList.add('active')
 	next.disabled = false
 
-	if(i === 1) prev.disabled = true
+	if(i === 0) prev.disabled = true
 })
