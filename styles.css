@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-.progress-container{
+.progress{
 	display: flex;
 	justify-content:space-around;
 }
