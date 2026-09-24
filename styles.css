@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-.progress{
+.progress-container{
 	display: flex;
 	justify-content:space-around;
 }
@@ -16,5 +16,5 @@
 	color:white;
 }
 button{
-	matgin-top:20px
+	margin-top:20px;
 }
