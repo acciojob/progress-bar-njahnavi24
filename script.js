@@ -19,5 +19,5 @@ prev.addEventListener("click",()=>{
 	circles[i-1].classList.add('active')
 	next.disabled = false
 
-	if(i === 0) prev.disabled = true
+	if(i === 1) prev.disabled = true
 })
